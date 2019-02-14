@@ -12,11 +12,11 @@
                            @auth
                             <li><a href="admin/create">Create Cats</a></li>
                             <li><a href="login">Compte</a></li>
-                            <li><a href="stats">stats</a></li>
-                            <form style="padding:0; margin:0;" method="POST" action="{{ url('/logout') }}">
+                            <li><a href="stats">Stats</a></li>
+                            <li><a form style="padding:0; margin:0;" method="POST" action="{{ url('/logout') }}">
                                 @csrf
-                                <li><a href="logout">deconnexion</a></li>
-                            </form>
+                                <li><a href="logout">Déconnexion</a></li>
+                            </form></a></li>
                             @endauth                                   
                         </ul>
                     </div>
